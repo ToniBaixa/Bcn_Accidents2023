@@ -29,7 +29,11 @@ For this project,
 
 5. Prepare data, transform categorical data.
 
-6. At what age are more traffic accidents suffered?
+6. Find correlations, prepara train/test sets
+
+7. Use linear regression model
+
+6. Modifify to improve model &apply croos-validation.
 
 
 ## File Descriptions <a name="files"></a>
@@ -82,6 +86,8 @@ For this project,
 ## Results<a name="results"></a>
 
 The district of Eixample has the highest number of accidents and Gracia has the least. Most of them have occured during Afternoon, followed by morning. Least accidents occured during Night time. Friday is the day with more and sunday with less. The main cause of accidents is poor attention in driving.
+
+Corr only shows some correlation betwween shifts & weekday. We use a linear regressions model, but accuracy was very low. We try to improve the model. And using cross-validation don't get better results either.
 
 
 
