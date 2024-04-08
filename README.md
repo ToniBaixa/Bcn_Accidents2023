@@ -88,7 +88,7 @@ For this project,
 
 The district of Eixample has the highest number of accidents and Gracia has the least. Most of them have occured during Afternoon, followed by morning. Least accidents occured during Night time. Friday is the day with more and sunday with less. August the month with less accidents. The main cause of accidents is poor attention in driving.
 
-Corr only shows some correlation betwween shifts & weekdays. We use a linear regressions model, but accuracy was low. We try to improve the model. And using cross-validation don't get better results either. Seems Linear regression is not the best model for this df!
+Corr only shows some correlation betwween shifts, months & weekdays. We use a linear regressions model, but accuracy was low. We try to improve the model. And using cross-validation don't get better results either. Seems Linear regression is not the best model for this df!
 
 
 
