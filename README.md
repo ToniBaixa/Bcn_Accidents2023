@@ -23,17 +23,17 @@ For this project,
   
 2. Studying data: accidentys by district, week day, shift & causes.
 
-3. Prepare data, transform categorical data.
+3. Prepare data, transform categorical data to ML.
 
 4. Look for Correlations
 
 5. Prepare data, transform categorical data.
 
-6. Find correlations, prepara train/test sets
+6. Find correlations, prepare train/test sets
 
 7. Use linear regression model
 
-6. Modifify to improve model &apply croos-validation.
+6. Modifify to improve model & apply cross-validation.
 
 
 ## File Descriptions <a name="files"></a>
@@ -65,29 +65,30 @@ For this project,
       08.Num_postal
       09.Descripcio_dia_setmana
       10.NK_Any 
-    11.Mes_any
-    12.Nom_mes
-    13.Dia_mes
-    14.Hora_dia
-    15.Descripcio_torn
-    16.Descripcio_causa_mediata
-    17.Coordenada_UTM_X_ED50
-    18.Coordenada_UTM_Y_ED50
-    19.Longitud_WGS84
-    20.Latitud_WGS84
+      11.Mes_any
+      12.Nom_mes
+      13.Dia_mes
+      14.Hora_dia
+      15.Descripcio_torn
+      16.Descripcio_causa_mediata
+      17.Coordenada_UTM_X_ED50
+      18.Coordenada_UTM_Y_ED50
+      19.Longitud_WGS84
+      20.Latitud_WGS84
 
   7. Final Attribute Information:
     01.   Nom_districte
-    02.   Descripcio_dia_setmana
-    03.   Descripcio_torn
-    04.   Descripcio_causa_mediata
+    02.   Mes_any
+    03.   Descripcio_dia_setmana
+    04.   Descripcio_torn
+    05.   Descripcio_causa_mediata
 
 
 ## Results<a name="results"></a>
 
-The district of Eixample has the highest number of accidents and Gracia has the least. Most of them have occured during Afternoon, followed by morning. Least accidents occured during Night time. Friday is the day with more and sunday with less. The main cause of accidents is poor attention in driving.
+The district of Eixample has the highest number of accidents and Gracia has the least. Most of them have occured during Afternoon, followed by morning. Least accidents occured during Night time. Friday is the day with more and sunday with less. August the month with less accidents. The main cause of accidents is poor attention in driving.
 
-Corr only shows some correlation betwween shifts & weekday. We use a linear regressions model, but accuracy was very low. We try to improve the model. And using cross-validation don't get better results either.
+Corr only shows some correlation betwween shifts & weekdays. We use a linear regressions model, but accuracy was low. We try to improve the model. And using cross-validation don't get better results either. Seems Linear regression is not the best model for this df!
 
 
 
