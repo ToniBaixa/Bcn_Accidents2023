@@ -21,7 +21,7 @@ For this project,
 
 1. Verifiying data, clean & drop undesired columns
   
-2. Studying data: accidentys by district, week day, shift & causes.
+2. Studying data: accidentys by district, week day, months, shift & causes.
 
 3. Prepare data, transform categorical data to ML.
 
